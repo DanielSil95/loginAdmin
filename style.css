@@ -1,0 +1,67 @@
+
+
+body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f0f0f0;
+   margin: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+#app {
+   text-align: center;
+}
+
+#registerForm {
+   background-color: #fff;
+   border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   max-width: 300px;
+   margin: 0 auto;
+}
+
+h1 {
+   color: #333;
+}
+
+label {
+   display: block;
+   text-align: left;
+   margin-bottom: 8px;
+   color: #555;
+}
+
+button {
+   background-color: #4caf50;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin-top: 10px;
+   cursor: pointer;
+   border-radius: 4px;
+   transition: background-color 0.3s;
+}
+
+button:hover {
+   background-color: #45a049;
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   border-radius: 4px;
+}
+
+
+
